@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "description": "Creating a Launchpad using JavaScript and testing with Jest",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "test": "jest"
+  }, 
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }

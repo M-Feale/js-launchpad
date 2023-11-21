@@ -24,3 +24,8 @@
     align-items: center;
     height: 100%;
 }
+
+.played {
+    background-color: rgb(250, 166, 10);
+    transition: all ease-in-out 100ms;
+}

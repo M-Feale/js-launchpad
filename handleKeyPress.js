@@ -8,7 +8,6 @@ const key7 = document.getElementById("key-7");
 const key8 = document.getElementById("key-8");
 const key9 = document.getElementById("key-9");
 
-// const loop = document.getElementById("loop");
 const chirp = document.getElementById("chirp");
 const clap = document.getElementById("clap");
 const kick = document.getElementById("kick");

@@ -22,74 +22,47 @@ const whistle = document.getElementById("whistle");
 const handleKeyPress = (event) => {
     switch (event.code) {
         case "Numpad1":
-            key1.classList.add("played")
-            setTimeout(() => {
-                key1.classList.remove("played")
-            }, 100)
+            handleAnimation(key1)
             playSound(chirp)
             break;
 
         case "Numpad2":
-            key2.classList.add("played")
-            setTimeout(() => {
-                key2.classList.remove("played")
-            }, 100)
+            handleAnimation(key2)
             playSound(clap)
             break;
 
         case "Numpad3":
-            key3.classList.add("played")
-            setTimeout(() => {
-                key3.classList.remove("played")
-            }, 100)
+            handleAnimation(key3)
             playSound(kick)
             break;
 
         case "Numpad4":
-            key4.classList.add("played")
-            setTimeout(() => {
-                key4.classList.remove("played")
-            }, 100)
+            handleAnimation(key4)
             playSound(laser)
             break;
 
         case "Numpad5":
-            key5.classList.add("played")
-            setTimeout(() => {
-                key5.classList.remove("played")
-            }, 100)
+            handleAnimation(key5)
             playSound(fuzz)
             break;
 
         case "Numpad6":
-            key6.classList.add("played")
-            setTimeout(() => {
-                key6.classList.remove("played")
-            }, 100)
+            handleAnimation(key6)
             playSound(tom)
             break;
 
         case "Numpad7":
-            key7.classList.add("played")
-            setTimeout(() => {
-                key7.classList.remove("played")
-            }, 100)
+            handleAnimation(key7)
             playSound(hit)
             break;
 
         case "Numpad8":
-            key8.classList.add("played")
-            setTimeout(() => {
-                key8.classList.remove("played")
-            }, 100)
+            handleAnimation(key8)
             playSound(metronome)
             break;
 
         case "Numpad9":
-            key9.classList.add("played")
-            setTimeout(() => {
-                key9.classList.remove("played")
-            }, 100)
+            handleAnimation(key9)
             playSound(whistle)
             break;
     }

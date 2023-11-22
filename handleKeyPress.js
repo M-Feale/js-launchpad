@@ -1,3 +1,6 @@
+const handleAnimation = require("./handleAnimation")
+const playSound = require("./playSound")
+
 const key1 = document.getElementById("key-1");
 const key2 = document.getElementById("key-2");
 const key3 = document.getElementById("key-3");
@@ -68,3 +71,5 @@ const handleKeyPress = (event) => {
 }
 
 document.addEventListener("keydown", handleKeyPress)
+
+module.exports = handleKeyPress;

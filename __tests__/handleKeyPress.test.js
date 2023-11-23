@@ -1,18 +1,17 @@
 /**
  * @jest-environment jsdom
  */
+jest.spyOn(document , `getElementById` ).mockImplementation((id) => id);
+import handleAnimation from "../handleAnimation"
+import playSound from "../playSound"
+const module = require(`../handleKeyPress`)
 
 jest.mock("../handleAnimation", () => jest.fn());
 jest.mock("../playSound", () => jest.fn())
-jest.spyOn(document, `getElementById`).mockImplementation((id) => id)
 
 
 describe(`handleKeyPress`, () => {
-    test("when Numpad1 is pressed, it should call animate and play sound ", () => {
-
-        const handleAnimation = require("../handleAnimation");
-        const handleKeyPress = require("../handleKeyPress");
-        const playSound = require("../playSound");
+    test("when NumpadX is pressed, it should animate and play sound ", () => {
 
         const mockEvents = [
             {
@@ -63,7 +62,8 @@ describe(`handleKeyPress`, () => {
         ]
 
         mockEvents.forEach((mockEvent) => {
-            handleKeyPress(mockEvent)
+
+            module.handleKeyPress(mockEvent)
             expect(handleAnimation).toHaveBeenCalledWith(mockEvent.keyId);
             expect(playSound).toHaveBeenCalledWith(mockEvent.soundName)
         })

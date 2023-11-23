@@ -2,7 +2,7 @@
   "name": "js-launchpad",
   "version": "1.0.0",
   "description": "Creating a Launchpad using JavaScript and testing with Jest",
-  "main": "index.js",
+  "main": "handleKeyPress.js",
   "scripts": {
     "test": "jest"
   },

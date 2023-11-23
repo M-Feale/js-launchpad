@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1700779912577" clover="3.2.0">
-  <project timestamp="1700779912578" name="All files">
+<coverage generated="1700780601630" clover="3.2.0">
+  <project timestamp="1700780601630" name="All files">
     <metrics statements="52" coveredstatements="52" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3" elements="64" coveredelements="64" complexity="0" loc="52" ncloc="52" packages="1" files="2" classes="2"/>
     <file name="handleAnimation.js" path="C:\Users\Marjo\Documents\Code\private-code-practice\javascript_30\js-launchpad\handleAnimation.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

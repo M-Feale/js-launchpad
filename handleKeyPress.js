@@ -1,5 +1,5 @@
-const handleAnimation = require("./handleAnimation")
-const playSound = require("./playSound")
+import handleAnimation from "./handleAnimation.js";
+import playSound from "./playSound.js";
 
 const key1 = document.getElementById("key-1");
 const key2 = document.getElementById("key-2");
@@ -21,7 +21,7 @@ const hit = document.getElementById("hit");
 const metronome = document.getElementById("metronome");
 const whistle = document.getElementById("whistle");
 
-const handleKeyPress = (event) => {
+export const handleKeyPress = (event) => {
     switch (event.code) {
         case "Numpad1":
             handleAnimation(key1)
@@ -71,5 +71,3 @@ const handleKeyPress = (event) => {
 }
 
 document.addEventListener("keydown", handleKeyPress)
-
-module.exports = handleKeyPress;

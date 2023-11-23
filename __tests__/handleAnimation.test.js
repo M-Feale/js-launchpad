@@ -14,7 +14,7 @@ describe("handleAnimation", () => {
     }
 
     test("should add a class to the DOM element and remove it after 100ms", () => {
-        const handleAnimation = require("../handleAnimation")
+        const handleAnimation = require("../handleAnimation").default
 
         handleAnimation(mockedDOMElement)
 

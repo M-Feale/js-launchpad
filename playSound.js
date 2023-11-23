@@ -3,4 +3,4 @@ const playSound = (sound) => {
     sound.play()
 }  
 
-module.exports = playSound;
+export default playSound;

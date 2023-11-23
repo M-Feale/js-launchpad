@@ -5,4 +5,4 @@ const handleAnimation = (element) => {
     }, 100) // the length of our timeout is the same length as the transition in styles.css
 }
 
-module.exports = handleAnimation;
+export default handleAnimation;

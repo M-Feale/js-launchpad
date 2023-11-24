@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1700780601630" clover="3.2.0">
-  <project timestamp="1700780601630" name="All files">
-    <metrics statements="52" coveredstatements="52" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3" elements="64" coveredelements="64" complexity="0" loc="52" ncloc="52" packages="1" files="2" classes="2"/>
+<coverage generated="1700859294975" clover="3.2.0">
+  <project timestamp="1700859294976" name="All files">
+    <metrics statements="55" coveredstatements="55" conditionals="9" coveredconditionals="9" methods="4" coveredmethods="4" elements="68" coveredelements="68" complexity="0" loc="55" ncloc="55" packages="1" files="3" classes="3"/>
     <file name="handleAnimation.js" path="C:\Users\Marjo\Documents\Code\private-code-practice\javascript_30\js-launchpad\handleAnimation.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
@@ -59,6 +59,12 @@
       <line num="68" count="1" type="stmt"/>
       <line num="69" count="1" type="stmt"/>
       <line num="73" count="1" type="stmt"/>
+    </file>
+    <file name="playSound.js" path="C:\Users\Marjo\Documents\Code\private-code-practice\javascript_30\js-launchpad\playSound.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
